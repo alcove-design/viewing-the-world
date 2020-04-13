@@ -51,3 +51,10 @@ Useful setup for indoor / artificial light settings: Three point lighting setup.
 
 
 ## Blender usage
+
+### Managing files
+
+### Shortcuts
+
+### Interface customization
+
