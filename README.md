@@ -19,6 +19,8 @@ Find him on [youtube](https://www.youtube.com/user/AndrewPPrice) and on [his web
 
 [Blender fundamentals](https://www.youtube.com/watch?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6&v=MF1qEhBSfq4) might also be a good source of information.
 
+[Photorealism, explained](https://www.youtube.com/watch?v=R1-Ef54uTeU).
+
 
 ## Modelling
 
@@ -28,13 +30,38 @@ Find him on [youtube](https://www.youtube.com/user/AndrewPPrice) and on [his web
 ## Materials
 
 
+### Liquids
 
+C.f. [liquids.md](liquids.md)/
 
 
 ## Lighting
 
 
 Useful setup for indoor / artificial light settings: Three point lighting setup. Source: [Blender 2.8: Getting started with EEVEE: Lights, Shadows, Shading, Reflections, Skies and HDRIs](https://www.youtube.com/watch?v=aJlk7n49m6Q&list=PLda3VoSoc_TRuNB-5fhzPzT0mBfJhVW-i&index=5&t=0s)
+
+## Composition
+
+3 stages:
+
+* Focal element
+  * Saturation
+  * Contrast
+  * Camera Focus
+  * Motion
+  * Faces or figures
+  * Influencers
+    * Guiding lines
+    * Framing
+    * Geometry
+* Structure
+  * Rule of thirds
+  * Golden ratio
+  * Pyramid
+  * Symmetry
+  * Full frame
+* Balance
+	Visual weight management, using size, high contrast, saturation, faces, figures.
 
 
 ## Post-processing
@@ -51,6 +78,11 @@ Useful setup for indoor / artificial light settings: Three point lighting setup.
 
 
 ## Blender usage
+
+### Camera
+
+To see where the camera focuses (depth of field), activate `limits` option in Camera's `Viewport Display` settings.
+
 
 ### Managing files
 
