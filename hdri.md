@@ -36,7 +36,7 @@ How to use as HDRI:
 
 * Profit!
 
-For the higher resolution versinos of the sky map, imageMagick might throw the following error:
+For the higher resolution versions of the sky map, imageMagick might throw the following error:
 
 ```
 convert-im6.q16: width or height exceeds limit `starmap_16k.tif' @ error/cache.c/OpenPixelCache/3912.
