@@ -49,3 +49,7 @@ More often, it is desirable to have a managed transition between both materials,
 In this case, a mix shader should combine both materials, using either noise + colorRamp or texture paint should be used as a masking factor.
 
 Reference: [Anvil tutorial - Texturing part 2](https://www.youtube.com/watch?v=nx8Qq7kNKK8&list=PLjEaoINr3zgHJVJF3T3CFUAZ6z11jKg6a&index=10).
+
+## Dynamic paint
+
+[Feature overview](https://www.youtube.com/watch?v=nVoPBCIuGz4) by CG Cookie.
