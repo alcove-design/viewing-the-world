@@ -32,6 +32,17 @@ Procedural modelling addon: [Sverchok](http://nikitron.cc.ua/sverchok_en.html).
 
 ## Materials
 
+Todo: check this GPL-licensed [PBR materials set](https://www.3d-wolf.com/products/materials.html) addon.
+
+For photorealistic reflections, setup angular roughness (aka fresnel glossiness) usign layer weight facing node and RGB curves, as shown in [this video](https://www.youtube.com/watch?v=_KXXyPd83s0) - controversial, c.f. comments.
+
+Read:
+
+* [The PBR Guide by Allegorithmic](https://academy.substance3d.com/courses/the-pbr-guide-part-1)
+* [Physically-Based Shading at Disney](https://disney-animation.s3.amazonaws.com/library/s2012_pbs_disney_brdf_notes_v2.pdf) - aka Principled BSDF paper
+* [Understanding metalness](https://www.chaosgroup.com/blog/understanding-metalness) - feat metal color and IOR values
+
+
 ### Texturing
 
 C.f. [texturing.md](texturing.md).
@@ -42,9 +53,15 @@ C.f. [liquids.md](liquids.md).
 
 ### Procedural shading
 
-Tip to obtain a smooth fall-off: [here](https://youtu.be/3UWHKtKsIbU?t=4566).
+Tip to obtain a smooth fall-off: use a substract math node, then multiply. [As explained here](https://youtu.be/3UWHKtKsIbU?t=4566).
+
+## Animating
+
+To rig an object, parent it to an armature, and define suitable vertex groups.
 
 ## Lighting
+
+The smaller the light, the sharper shadows will be.
 
 Useful setup for indoor / artificial light settings: Three point lighting setup. Source: [Blender 2.8: Getting started with EEVEE: Lights, Shadows, Shading, Reflections, Skies and HDRIs](https://www.youtube.com/watch?v=aJlk7n49m6Q&list=PLda3VoSoc_TRuNB-5fhzPzT0mBfJhVW-i&index=5&t=0s)
 
@@ -74,9 +91,22 @@ Useful setup for indoor / artificial light settings: Three point lighting setup.
 	Visual weight management, using size, high contrast, saturation, faces, figures.
 
 
+### Animation
+
+[Cuts and transitions 101](https://www.youtube.com/watch?v=OAH0MoAv2CI)
+
+
+
+
 ## Post-processing
 
 To have a glow effect in cycles, add in a `glare` node in the compositing ([source](https://youtu.be/Tu3U6wD7lu4?t=70)), then play with the options. `Fog glow` is probably a better start than the default `streaks` mode.
+
+Useful resources:
+
+* [Render Passes in Blender 2.8 - what are they and why even use them?](https://www.youtube.com/watch?v=9p_iwjU5_Bg)
+* [Composite CGI Element Behind Real Glass - Blender VFX Tutorial](https://www.youtube.com/watch?v=qdqV4oortP0)
+* [Shadow catcher](https://www.youtube.com/watch?v=GIGKit1e3u8)
 
 
 ## Rendering
